@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Routines</title>
+
+    <link rel="shortcut icon" href="assets/graduation.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <script src="scripts/index.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <h1 class="title-head">Study Routines</h1>
+    </header>
+    <main>
+        <div id="container-goal">
+            <div id="goal">
+                <div class="title-goal">
+                    <img src="assets/prime_trophy.svg" alt="Troféu">
+                    <h2>Cadastre suas metas</h2>
+                </div>
+                <form>
+                    <div class="input">
+                        <label for="mather">Nome do curso ou matéria:</label>
+                        <input
+                        type="text"
+                        id="mather"
+                        placeholder="Digite o que você vai estudar"
+                        required>
+                        <div class="input">
+                            <label for="number-mather">Quantas aulas ou matérias:</label>
+                            <input
+                            type="number"
+                            id="number-mather"
+                            placeholder="Digite a quantidade de aulas"
+                            required>
+                        </div>
+                    </div>
+                    <div id="forecast">
+                            <div class="input">
+                                <label for="date-start">Data de início:</label>
+                                <input
+                                type="date"
+                                id="date-start"
+                                required>
+                            </div>
+                            <div class="input">
+                                <label for="date-conclusion">Data de conclusão:</label>
+                                <input
+                                type="date"
+                                id="date-conclusion"
+                                required>
+                            </div>
+                    </div>
+                    <div id="buttons-container">
+                        <button id="start">Início</button>
+                        <button id="delete" type="reset">Limpar</button>
+                    </div>
+                </form>
+                
+            </div>
+            
+            <div id="box-verification">
+                <div class="conclusion">
+                    <!--<img src="assets/graduation_close.svg" alt="Icone de aconpanhamento de tarefas a fazer" class="icon-close">
+                    <img src="assets/graduation.svg" alt="Icone de aconpanhamento de tarefas realizadas" class="icon-open">-->
+                    <!--Adicionando conteúdo dinamicamente-->
+                </div>
+            </div>
+
+            <div id="report-container">
+                <div id="box-report">
+                    <h3>Relatório de conquista</h3>
+                    <div id="box-graphic">
+                        <div id="graphic">
+                            <svg id="graphic-base" width="136" height="136" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="68" cy="68" r="55.5" stroke="#242529" stroke-width="25" stroke-linecap="round"/>
+                            </svg>
+                            <svg id="graphic-progress" width="136" height="136" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="68" cy="68" r="55.5" stroke="#36363e" stroke-width="25" stroke-linecap="round"/>
+                            </svg>
+                                <span id="data-graphic">0</span>
+                        </div>
+                    </div>
+                    <div id="number-report-container">
+                        <div id="classes-to-take">
+                            <div class="description">
+                                <span></span>
+                                <p>Total de metas</p>
+                            </div>
+
+                                <div id="study-goal">
+                                    <!--Adicionando N° Dinamicamente-->
+                                </div>
+
+                        </div>
+                        <div id="classes-completed">
+                            <div class="description">
+                                <span><!--Adicionando N° Dinamicamente--></span>
+                                <p>Metas realizadas</p>
+                            </div>
+                            <div class="change-values">
+                                <img src="assets/subtract.svg" alt="Adicionar tarefas realizadas" id="subtract">
+                                <p id="goals-completed">0</p>
+                                <img src="assets/to-add.svg" alt="Subtrair tarefas realizadas" id="to-add">
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div id="select-goals-container">
+
+            <h3>Metas cadastradas</h3>
+            
+            <div id="select-goals">
+                <!--Adicionando conteúdo dinamicamente-->
+                <p id="teste"></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
