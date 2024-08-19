@@ -459,6 +459,84 @@ form {
     cursor: pointer;
 }
 
+/* Responsividade */
+@media (min-width: 500px) and (max-width: 1199px)  {
+    #container-goal {
+        flex-direction: column;
+    }
+
+    #goal,
+    #box-verification,
+    #report-container{
+        width: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .title-head {
+        font-size: 30px;
+    }
+    
+    #container-goal {
+        padding: 20px;
+    }
+
+    #container-goal {
+        flex-direction: column;
+    }
+
+    #goal,
+    #box-verification,
+    #report-container{
+        width: 100%;
+    }
+    
+    .title-goal h2 {
+        font-size: 16px;
+    } 
+
+    .input label {
+        font-size: 14px;
+    }
+
+    #forecast {
+        flex-direction: column;
+    }
+
+    #start,
+    #delete {
+        font-size: 14px;
+    }
+
+    #box-report h3 {
+        font-size: 18px;
+    }
+
+    .description p {
+        font-size: 14px;
+    }
+
+    #goals-completed {
+        font-size: 14px;
+        width: 30px;
+    }
+
+    #study-goal {
+        font-size: 14px;
+        width: 86px;
+    }
+
+    #select-goals-container h3 {
+        font-size: 18px;
+    }
+
+    #select-goals span {
+        font-size: 14px;
+        padding: 10px;
+        
+    }
+}
+
 
 
 
