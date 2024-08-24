@@ -8,7 +8,7 @@ Projeto desenvolvido exclusivamente por mim, incluindo o ux/ui design e desenvol
 
 <img align="center" src="assets/projeto.png" alt="imagem do projeto"/>
 
-#### Clica nesse link e divirta-se 👉 
+#### Clica nesse link e divirta-se 👉 https://arymanreis.github.io/study_routine/
 
 #### Tecnologias Usadas no projeto
 
