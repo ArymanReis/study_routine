@@ -2,7 +2,7 @@
 
 #### Projeto Rotinas De Estudos
 
-Projeto desenvolvido exclusivamente por mim, incluindo o ux/ui design e desenvolvimeto web. O mais desafiador foi o gráfico de evolução de acordo com a conclusão das tarefas.
+Projeto desenvolvido exclusivamente por mim, incluindo o ux/ui design e desenvolvimento web. O mais desafiador foi o gráfico de evolução de acordo com a conclusão das tarefas.
 
 ##### Imagem do projeto
 
